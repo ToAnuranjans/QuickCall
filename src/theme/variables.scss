@@ -74,9 +74,13 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  --qc-background-color: #da7b0f;
+  --qc-text-color: #ffffff;
 }
 
-ion-toolbar {
-  --background: var(--ion-color-warning);
-  --color: var(--ion-color-danger-contrast);
+ion-toolbar,
+ion-menu {
+  --background: var(--qc-background-color);
+  --color: var(--qc-text-color);
 }

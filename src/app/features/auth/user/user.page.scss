@@ -1,0 +1,22 @@
+// .speaker-detail {
+//   height: 100%;
+//   width: 80%;
+//   margin: 4px auto;
+//   border-radius: 50%;
+// }
+
+// .speaker-detail ion-img {
+//   max-width: 140px;
+//   border-radius: 50%;
+// }
+.image-circle {
+  border-radius: 50%;
+}
+
+ion-avatar {
+  --border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  margin: 4px auto;
+  border-radius: 50%;
+}
